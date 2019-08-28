@@ -12,6 +12,7 @@ variable "aws_vpc" {
   default = "default"
 }
 
+
 variable "aws_security_group" {
   default = ["default", "ec2sshaccess"]
 }
